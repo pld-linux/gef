@@ -12,6 +12,7 @@ Source0:	http://gef.tigris.org/files/documents/9/10445/GEF-%{version}-src.zip
 URL:		http://gef.tigris.org/
 BuildRequires:	jakarta-ant
 BuildRequires:	jakarta-commons-logging
+BuildRequires:	unzip
 Requires:	jakarta-log4j
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
