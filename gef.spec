@@ -10,7 +10,7 @@ Group:		Development/Languages/Java
 Source0:	http://gef.tigris.org/files/documents/9/10445/GEF-%{version}-src.zip
 # Source0-md5:	bb4c1f5e902bbe9ad882794e88994e4c
 URL:		http://gef.tigris.org/
-BuildRequires:	jakarta-ant
+BuildRequires:	ant
 BuildRequires:	jakarta-commons-logging
 BuildRequires:	unzip
 Requires:	jakarta-log4j
