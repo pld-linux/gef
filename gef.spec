@@ -1,7 +1,7 @@
 # TODO:
 # javadoc package
 Summary:	A diagram editing framework
-Summary(pl):	Szkielet do edycji diagramów
+Summary(pl.UTF-8):   Szkielet do edycji diagramÃ³w
 Name:		gef
 Version:	0.10.7
 Release:	0.1
@@ -35,34 +35,34 @@ applications. Some of GEF's features are:
 - XML-based file formats based on the PGML standard (soon to support
   SVG).
 
-%description -l pl
-Celem projektu GEF jest stworzenie biblioteki do edycji grafów, której
-mo¿na u¿ywaæ do konstruowania wielu wysokiej jako¶ci aplikacji do
-edycji grafów. Niektóre mo¿liwo¶ci pakietu GEF to:
-- prosty, konkretny projekt czyni±cy ¶rodowisko ³atwym do zrozumienia
+%description -l pl.UTF-8
+Celem projektu GEF jest stworzenie biblioteki do edycji grafÃ³w, ktÃ³rej
+moÅ¼na uÅ¼ywaÄ‡ do konstruowania wielu wysokiej jakoÅ›ci aplikacji do
+edycji grafÃ³w. NiektÃ³re moÅ¼liwoÅ›ci pakietu GEF to:
+- prosty, konkretny projekt czyniÄ…cy Å›rodowisko Å‚atwym do zrozumienia
   i rozszerzania
-- model grafów wierzcho³ek-port-krawêd¼ wystarczaj±cy do przewa¿aj±cej
-  wiêkszo¶ci zastosowañ trafów
+- model grafÃ³w wierzchoÅ‚ek-port-krawÄ™dÅº wystarczajÄ…cy do przewaÅ¼ajÄ…cej
+  wiÄ™kszoÅ›ci zastosowaÅ„ trafÃ³w
 - projekt model-widok-kontroler oparty na bibliotece UI Javy Swing,
-  dziêki któremu pakiet GEF mo¿e dzia³aæ jako interfejs u¿ytkownika do
-  istniej±cych struktur danych, a tak¿e minimalizuj±cy czas nauki dla
-  programistów znaj±cych Swinga
-- wysokiej jako¶ci interakcja z u¿ytkownikiem przy przesuwaniu,
-  zmianie rozmiaru, kszta³tu itp.; GEF obs³uguje tak¿e ró¿ne nowe
-  interakcje, takie jak "miot³ê" (narzêdzie do wyrównywania) oraz
+  dziÄ™ki ktÃ³remu pakiet GEF moÅ¼e dziaÅ‚aÄ‡ jako interfejs uÅ¼ytkownika do
+  istniejÄ…cych struktur danych, a takÅ¼e minimalizujÄ…cy czas nauki dla
+  programistÃ³w znajÄ…cych Swinga
+- wysokiej jakoÅ›ci interakcja z uÅ¼ytkownikiem przy przesuwaniu,
+  zmianie rozmiaru, ksztaÅ‚tu itp.; GEF obsÅ‚uguje takÅ¼e rÃ³Å¼ne nowe
+  interakcje, takie jak "miotÅ‚Ä™" (narzÄ™dzie do wyrÃ³wnywania) oraz
   przyciski sekcji-akcji
-- arkusz ogólnych w³asno¶ci oparty na introspekcji JavaBeans
-- formaty plików XML oparte na standardzie PGML (wkrótce obs³uga SVG).
+- arkusz ogÃ³lnych wÅ‚asnoÅ›ci oparty na introspekcji JavaBeans
+- formaty plikÃ³w XML oparte na standardzie PGML (wkrÃ³tce obsÅ‚uga SVG).
 
 %package doc
 Summary:	Javadoc for %{name}
-Summary(pl):	Dokumentacja Javadoc dla %{name}
+Summary(pl.UTF-8):   Dokumentacja Javadoc dla %{name}
 Group:		Documentation
 
 %description doc
 Javadoc for %{name}.
 
-%description doc -l pl
+%description doc -l pl.UTF-8
 Dokumentacja Javadoc dla %{name}.
 
 %prep
