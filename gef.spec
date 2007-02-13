@@ -1,7 +1,7 @@
 # TODO:
 # javadoc package
 Summary:	A diagram editing framework
-Summary(pl.UTF-8):   Szkielet do edycji diagramów
+Summary(pl.UTF-8):	Szkielet do edycji diagramów
 Name:		gef
 Version:	0.10.7
 Release:	0.1
@@ -56,7 +56,7 @@ edycji grafów. Niektóre możliwości pakietu GEF to:
 
 %package doc
 Summary:	Javadoc for %{name}
-Summary(pl.UTF-8):   Dokumentacja Javadoc dla %{name}
+Summary(pl.UTF-8):	Dokumentacja Javadoc dla %{name}
 Group:		Documentation
 
 %description doc
