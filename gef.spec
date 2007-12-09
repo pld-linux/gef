@@ -1,5 +1,6 @@
 # TODO:
-# javadoc package
+# - javadoc package
+%include	/usr/lib/rpm/macros.java
 Summary:	A diagram editing framework
 Summary(pl.UTF-8):	Szkielet do edycji diagramów
 Name:		gef
@@ -12,8 +13,11 @@ Source0:	http://gef.tigris.org/files/documents/9/10445/GEF-%{version}-src.zip
 URL:		http://gef.tigris.org/
 BuildRequires:	ant
 BuildRequires:	jakarta-commons-logging
+BuildRequires:	jpackage-utils
+BuildRequires:	rpmbuild(macros) >= 1.300
 BuildRequires:	unzip
 Requires:	jakarta-log4j
+Requires:	jpackage-utils
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -71,11 +75,10 @@ mkdir src
 cd src
 unzip -q %{SOURCE0}
 # remove binary files
-find . -name "*.jar" -exec rm -f {} \;
+find -name '*.jar' | xargs rm -v
 
 %build
-cd src
-ant package
+%ant package
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -88,4 +91,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc src/COPYRIGHT src/INSTALL.txt src/readme.txt
-%{_javadir}/*
+%{_javadir}/*.jar
