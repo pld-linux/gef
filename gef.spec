@@ -1,6 +1,5 @@
 # TODO:
 # - javadoc package
-%include	/usr/lib/rpm/macros.java
 Summary:	A diagram editing framework
 Summary(pl.UTF-8):	Szkielet do edycji diagramów
 Name:		gef
